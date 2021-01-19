@@ -30,15 +30,15 @@ pod_file = open('pod_nbrs.pkl', 'rb')
 
 # 8. Leader numbers
 print('Leaders: ')
-for key,value in leader.item():
+for key,value in leader.items():
     print(key, value)
 
 print('\n')
 
 # 9. Print POD members
-print('Members')
+print('Members: ')
 
 print('\n')
 
 # 10. Close pod_file
-
+pod_file.close()
