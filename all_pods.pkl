@@ -1,0 +1,39 @@
+(dp0
+S'Prince Fields'
+p1
+S'(510) 472-0804'
+p2
+sS'Moussa Ndiaye'
+p3
+S'(123) 456-7890'
+p4
+sS'Morris Jones'
+p5
+S'(925) 286-5922'
+p6
+sS'Akari Johnson'
+p7
+S'(510) 500-2206'
+p8
+sS'Jacore Baptiste'
+p9
+S'(845) 200-6250'
+p10
+s.(dp0
+S'Ronin Youngjones'
+p1
+S'(415) 910-3415'
+p2
+sS'Mallick Abdullah'
+p3
+S'(510) 409-8755'
+p4
+sS'Glenn Ivory'
+p5
+S'(510) 328-8290'
+p6
+sS'Andrew Lubega'
+p7
+S'(925) 727-4611'
+p8
+s.
