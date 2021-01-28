@@ -5,6 +5,8 @@ leader = {}
 leader['Jacore Baptise'] = '(845) 200-6250'
 leader['Andrew'] = '(925) 727-4611'
 leader['Richard'] = '(123) 456-7890'
+leader['Gabe'] = '123'
+leader['Aris'] = '123'
 
 # 2. create/open pod_nbrs.pkl file
 pod_file = open('pod_nbrs.pkl', 'wb')
@@ -37,6 +39,8 @@ print('\n')
 
 # 9. Print POD members
 print('Members: ')
+for key2,value2 in member.items():
+    print(key2, value2)
 
 print('\n')
 
