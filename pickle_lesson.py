@@ -4,9 +4,9 @@ import pickle
 leader = {}
 leader['Jacore Baptise'] = '(845) 200-6250'
 leader['Andrew'] = '(925) 727-4611'
-leader['Richard'] = '(123) 456-7890'
-leader['Gabe'] = '123'
-leader['Aris'] = '123'
+leader['Richard'] = '(510) 228-5623'
+leader['Gabe'] = '(510) 326-583'
+leader['Aris'] = '(510) 229-6359'
 
 # 2. create/open pod_nbrs.pkl file
 pod_file = open('pod_nbrs.pkl', 'wb')
