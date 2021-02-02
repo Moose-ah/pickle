@@ -28,15 +28,18 @@ andrew_members['Mallick Abdullah'] = '(510) 409-8755'
 andrew_members['Ronin Youngjones'] = '(415) 910-3415'
 andrew_members['Glenn Ivory'] = '(510) 328-8290'
 
+richard_members['Richard'] = '(510) 228-5623'
 richard_members['Matthew'] = '(510) 816-2411'
 richard_members['Kymari'] = '(510) 575-1982'
 richard_members['Josiah'] = '(510) 860-5112'
 
+aris_members['Aris'] = '(510) 229-6359'
 aris_members['Milan Kral'] = '(510) 816-3232'
 aris_members['Maurice Richardson'] = '(510) 424-7789'
 aris_members['Zyion Williams'] = '(510) 480-5785'
 aris_members['Hyab Isayas'] = '(510) 612-3737'
 
+gabriel_members['Gabriel'] = '(510) 326-5834'
 gabriel_members['Emmanuel Torbor'] = '(510) 934-4133'
 gabriel_members['David Brickley'] = '(510) 631-6288'
 gabriel_members['Myles Wilkerson'] = '(510) 500-7266'
