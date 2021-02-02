@@ -10,7 +10,9 @@ pod_file = open('all_pods.pkl', 'wb')
 #3  Initialize empty dictionary variables, name it as such;
 jacore_members = {}
 andrew_members = {}
-_members = {}
+richard_members = {}
+aris_members = {}
+gabriel_members = {}
 
 #4 Create an empty dictionary for the other 3 PODs; Aris, Gabriel and Richard
 
@@ -26,19 +28,36 @@ andrew_members['Mallick Abdullah'] = '(510) 409-8755'
 andrew_members['Ronin Youngjones'] = '(415) 910-3415'
 andrew_members['Glenn Ivory'] = '(510) 328-8290'
 
-_members[''] = '() -'
+richard_members['Matthew'] = '(510) 816-2411'
+richard_members['Kymari'] = '(510) 575-1982'
+richard_members['Josiah'] = '(510) 860-5112'
+
+aris_members['Milan Kral'] = '(510) 816-3232'
+aris_members['Maurice Richardson'] = '(510) 424-7789'
+aris_members['Zyion Williams'] = '(510) 480-5785'
+aris_members['Hyab Isayas'] = '(510) 612-3737'
+
+gabriel_members['Emmanuel Torbor'] = '(510) 934-4133'
+gabriel_members['David Brickley'] = '(510) 631-6288'
+gabriel_members['Myles Wilkerson'] = '(510) 500-7266'
  
 #6 Add all the PODS to the all_pod_members dictionary
 all_pod_members['Jacore'] = jacore_members
 all_pod_members['Andrew'] = andrew_members
+all_pod_members['Richard'] = richard_members
+all_pod_members['Aris'] = aris_members
+all_pod_members['Gabriel'] = gabriel_members
 
 #7 Dump all the 
 pickle.dump(jacore_members,pod_file)
 pickle.dump(andrew_members,pod_file)
-pickle.dump(_members,pod_file)
+pickle.dump(richard_members,pod_file)
+pickle.dump(aris_members,pod_file)
+pickle.dump(gabriel_members,pod_file)
 
 #8 Open the pod_file to read data
 pod_file = open('all_pods.pkl', 'rb')
+print(all_pod_members, "\n")
 
 #9 Print all the Pod leaders and POD membership
 for key,value in all_pod_members.items():
